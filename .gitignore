@@ -1,0 +1,46 @@
+# ---- 可重新生成的中间产物, 不入库 ----
+# 这些都能用 dev/ 下的脚本从游戏原版资源重建, 体积大且无版本管理价值。
+# 重建方式见 README 的「重建贴图」一节。
+dev/*_unzip/
+dev/images_unzip/
+dev/conv_test/
+dev/__pycache__/
+**/__pycache__/
+*.pyc
+
+# 探索过程导出的大预览图 / 失败的解码结果(结论已记在 dev_notes.md)
+dev/art/sheet_*.png
+dev/art/row25_full.png
+dev/art/atlas1_*.png
+dev/art/world_atlas_decoded*.png
+dev/art/world_atlas_best.png
+dev/art/world_atlas_sharp*.png
+dev/art/world_atlas_components*.png
+dev/art/world_atlas_flower.png
+dev/art/world_atlas_final.png
+dev/art/world_base_*.png
+dev/art/region_*.png
+dev/art/comp_*.png
+dev/art/icon_candidate_*.png
+dev/art/flower_slot_preview.png
+dev/art/roundtrip_*.png
+dev/art/target_face*.png
+dev/art/*_UNUSED.png
+# 这个是偏移取错时的噪声解码, 留着只会误导
+dev/art/vanilla_swap_backpack_decode.png
+
+# ---- 发布产物 ----
+dist/
+*.zip.tmp
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# atlas_topleft ������ƫ��ȡ��ʱ��������ͼ����ͼ, �ѱ���ȷ�汾ȡ��
+dev/art/atlas_topleft.png
+# vanilla_backpack_icon.png ��ͬһ����������, ֻ�����Ŵ�ĶԱ�ͼ
+dev/art/vanilla_backpack_icon.png
+dev/art/vanilla_backpack_icon_64.png

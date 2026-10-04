@@ -1,0 +1,16 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Preserving Backpack\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: STRINGS.NAMES.FLOWERPACK
+msgctxt "STRINGS.NAMES.FLOWERPACK"
+msgstr "鮮花背包"
+
+#: STRINGS.RECIPE_DESC.FLOWERPACK
+msgctxt "STRINGS.RECIPE_DESC.FLOWERPACK"
+msgstr "背包右下角有一朵花。裡面的食物不容易壞。"
+
+#: STRINGS.CHARACTERS.GENERIC.DESCRIBE.FLOWERPACK
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.FLOWERPACK"
+msgstr "和普通背包一樣，不過放在裡面的食物能多放些日子。"
